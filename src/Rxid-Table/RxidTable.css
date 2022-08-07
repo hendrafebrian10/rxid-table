@@ -1,0 +1,30 @@
+.rxid-table table thead tr th,
+.rxid-table table tbody tr td {
+white-space: nowrap;
+}
+
+.rxid-table table tbody tr:hover td{
+    background-color: #e1e1e1;
+}
+
+.rxid-table table thead tr th div.th-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.rxid-table table thead tr th div.th-content span.sort{
+    display: none;
+}
+
+.rxid-table table thead tr th.sortable div.th-content span.sort{
+    display: block;
+}
+.rxid-table table thead tr th.sortable{
+    cursor: pointer;
+}
+
+.rxid-table table thead tr th.sortable:hover {
+    background-color: #e1e1e1;
+}
